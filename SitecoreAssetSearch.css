@@ -1,0 +1,89 @@
+.sitecore-explorer {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.title {
+    color: #333;
+    text-align: center;
+}
+
+.query-input {
+    width: 600px !important;
+    min-width: 700px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.search-btn, .clear-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    color: white;
+    font-weight: bold; /* Optional: makes the text stand out */
+}
+
+.search-btn {
+    background-color: #4CAF50; /* Green background */
+}
+
+.clear-btn {
+    background-color: #f44336; /* Red background */
+}
+
+.search-btn:hover {
+    background-color: #45a049; /* Darker shade of green for hover */
+}
+
+.clear-btn:hover {
+    background-color: #d73830; /* Darker shade of red for hover */
+}
+
+/* Additional: Disabled state styling */
+.search-btn:disabled, .clear-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+.loading, .error-msg, .success-msg {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.error-msg {
+    color: red;
+}
+
+.success-msg {
+    color: green;
+}
+
+.assets-list {
+    margin-top: 20px;
+}
+
+.asset-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.asset-preview {
+    max-width: 200px; /* Limit the width */
+    max-height: 200px; /* Limit the height */
+    width: auto; /* Maintain the aspect ratio */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 5px; /* Optional: Rounded corners for aesthetics */
+    margin-top: 10px; /* Space above the image */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15); /* Optional: Adding a subtle shadow for depth */
+}
